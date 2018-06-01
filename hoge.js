@@ -1,2 +1,4 @@
-var message = "こんにちは、"
-console.log(message + "にんじゃわんこさん")
+var number = 7;
+console.log(number);
+number = 8;
+console.log(number);
