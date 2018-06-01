@@ -1,5 +1,4 @@
-console.log(3);
-console.log(5 + 2);
-console.log(3 - 2);
-console.log(5 + 2);
-console.log("5 + 2");
+var number = 7;
+console.log(number);
+number = 8;
+console.log(number);
