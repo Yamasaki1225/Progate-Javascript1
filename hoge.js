@@ -1,3 +1,2 @@
-var name = "John";
-console.log(name);
-console.log("name");
+var message = "こんにちは、"
+console.log(message + "にんじゃわんこさん")
