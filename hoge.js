@@ -1,8 +1,10 @@
-var level = 5;
-if (level >= 10){
-  console.log("手裏剣と忍者刀お装備できます");
-} else if (level >= 5 && level < 10) {
-  console.log("忍者刀を装備できます");
-} else {
-  console.log("何も装備できません");
+var item = "う"
+switch(item) {
+  case"手裏剣":
+    console.log("忍者が投げて使います");
+  case"忍者刀":
+    console.log("忍者のための短い刀です");
+    break;
+  default:
+    console.log("そのアイテムは使う事ができません");
 }
