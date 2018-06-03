@@ -1,3 +1,3 @@
-for(var i = 1; i <= 5; i += 1) {
- console.log(i);
-}
+var fruits = ["apple","banana","orange"];
+console.log(fruits);
+console.log(fruits[0]);
