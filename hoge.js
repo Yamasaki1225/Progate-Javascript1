@@ -1,4 +1,4 @@
-function hello(){
- console.log("こんにちは");
+//ローカルスコープ
+function introduce() {
+ var name = "にんじゃわんこ";
 }
-hello();
