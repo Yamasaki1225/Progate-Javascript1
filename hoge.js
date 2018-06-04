@@ -1,4 +1,5 @@
-//ローカルスコープ
-function introduce() {
+//グローバルスコープ
  var name = "にんじゃわんこ";
+function introduce() {
+
 }
