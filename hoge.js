@@ -1,9 +1,4 @@
-//ローカルスコープとグローバルスコープ
-var name = "ひつじ仙人";
-console.log(name);
-function introduce() {
-  var name = "にんじゃわんこ";
+function introduce(name) {
   console.log(name);
 }
-introduce();
-console.log(name);
+introduce("にんじゃわんこ");
