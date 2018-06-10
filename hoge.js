@@ -1,4 +1,5 @@
-function introduce(name) {
-  console.log(name);
+function introduce(name,age) {
+  console.log("私の名前は" + name + "です")
+  console.log(age + "歳です。");
 }
-introduce("にんじゃわんこ");
+introduce("にんじゃわんこ",14)
